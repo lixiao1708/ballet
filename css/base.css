@@ -1,0 +1,54 @@
+/*设置通用样式*/
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:rgb(98, 168, 234);
+	text-decoration:none;
+
+}
+img{
+	vertical-align:middle;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.lf{
+	float:left;
+}
+.rt{
+	float:right;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	font:12px "Microsoft YaHei","Montez",cursive,Arial,Helvetica,sans-serif;
+}
+input{
+	outline:none;
+	border:none;
+}
+textarea{
+	outline:none;
+}
+#main{
+	margin:0 auto;
+	padding:0;
+}
+
+#header{
+	width:100%;
+	height:50px;
+}
+#footer{
+	width:100%;
+	height:550px;
+}
